@@ -1,0 +1,354 @@
+body{
+    font-family: var(--bs-font-sans-serif);
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+.media-sec{
+    width: 100%;
+    height: 50px;
+    background: black;
+    position: relative;
+}
+.com-mail{
+    color:  #cfd6e1;
+    margin-left: 80px;
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    font-size: .9em;
+    cursor: pointer;
+
+}
+
+.email-img{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    color: #cfd6e1;
+    top: 15px;
+    left: 50px;
+}
+.com-mail2{
+    color:  #cfd6e1;
+    margin-left: 250px;
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    font-size: .9em;
+    cursor: pointer;
+
+}
+.phone-img{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    color: #cfd6e1;
+    top: 15px;
+    left: 225px;
+}
+.social{
+   position: absolute;
+   right: 50px;
+   padding: 10px;
+}
+
+.fa{
+    color: #cfd6e1;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 5px;
+}
+.menu-sec{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.first-sec{
+    width: 100%;
+    height: 600px;
+    background: rgb(236, 236, 236);
+    position: relative;
+}
+.name-icon{
+    color: #59ab6e;
+    font-weight: bold;
+    font-size: 52px;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 300px;
+    top: -25px;
+}
+.menu-items{
+    padding: 50px;
+    color: #212934;
+}
+.menu-items:hover{
+    color: #59ab6e;
+}
+.shoe-img{
+    margin-left: 50%;
+    width: 550px;
+    height: 450px;
+    margin-top: 100px;
+}
+.heading-name{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    color: #59ab6e;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px ;
+    font-weight: 200 ;
+}
+.heading-name2{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    color: #59ab6e;
+    display: inline;
+    font-size: 50px;
+    font-weight: 5;
+}
+.para{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px ;
+    font-weight: lighter;
+    line-height: 1.2;
+    
+}
+.big-para{
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+}
+.second-sec{
+    width: 100%;
+    height: 700px;
+    
+}
+.second-head{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px !important;
+    font-weight: 100 !important;
+}
+.second-para{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+}
+.image-1,.image-2,.image-3{
+    width: 300px;
+    height: 450px;
+    margin-left: 100px;
+    float: left;
+    margin-top: 70px;
+    text-align: center;
+    font-weight:  bold;
+
+}
+.image-gallery{
+    width: 100%;
+    height: 400px;
+}
+.img-size{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.shop-btn{
+    width: 100px;
+    height: 50px;
+    background: #59ab6e;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.third-sec{
+    width: 100%;
+    height: 700px;
+    background: #cfd6e1;
+
+}
+.second-head2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px !important;
+    font-weight: 100 !important;
+    padding-top: 50px;
+}
+.second-para2{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+     margin-top: 0;
+     text-align: center;
+}
+.cards-sec{
+    width: 80%;
+    height: 400px;
+    margin-left: 140px;
+    margin-top: 50px;
+    display: flex;
+}
+.card-1,.card-2,.card-3{
+    float: left;
+    width: 300px;
+    height: 400px;
+    background: white;
+    margin-left: 18px;
+    border-radius: 10px;
+
+}
+.card-img{
+    width: 300px;
+    height: 200px;
+
+}
+.checked{
+    color: orange;
+}
+.item-name{
+    margin-left: 40px;
+}
+.card-txt{
+    margin-left: 20px;
+}
+.review{
+    margin-left: 20px;
+    color: #cfd6e1;
+}
+.footer-sec{
+    width: 100%;
+    height: 500px;
+    background: #212934;
+    position: relative;
+}
+.heading-1{
+    color: #59ab6e;
+    margin-top: 0;
+    margin-left: 70px;
+}
+.text-sec-div{
+    width: 75%;
+    height:300px ;
+    left: 170px;
+    top: 100px;
+    position: absolute;
+}
+.heading-div1,.heading-div2,.heading-div3{
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin-left: 25px;
+}
+.heading-2{
+    margin-top: 0;
+    margin-left: 70px;
+    color: #cfd6e1;
+    font-weight: 100;
+}
+li{
+    color: #cfd6e1;
+    list-style: none;
+    line-height: 30px;
+}
+li:hover{
+    color: #59ab6e;
+}
+.social-big-btn{
+    width: 270px;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    left: 170px;
+}
+.btn-size{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background: #212934;
+    border: 1px solid gray;
+}
+.btn-size:hover{
+    background: #cfd6e1;
+}
+.fa:hover{
+    color: #212934;
+}
+.input-mail{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 10px;
+    width: 210px;
+    height: 40px;
+    background: #212934;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.sub-btn{
+    position: absolute;
+    margin-left: 705px;
+    margin-top: 10px;
+    width: 100px;
+    height: 44px;
+    background: #59ab6e;
+    color: #cfd6e1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-style: none;
+}
+hr{
+    border: 0.5px solid gray;
+}
+.end-sec{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background: #212529;;
+}
+.end-para{
+    margin-left: 200px;
+}
+a{
+    color: #cfd6e1;
+}
+a:hover{
+    color: #59ab6e;
+}
+.search-btn{
+    width: 50px;
+    height: 40px;
+    background: white;
+    border-style: none;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #212529;
+}
+    
+
